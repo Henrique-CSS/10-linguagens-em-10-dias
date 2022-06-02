@@ -1,3 +1,5 @@
 <?php
 
-file_get_contents("file.txt");
+$fileName = $argv[1];
+file_get_contents($fileName);
+
