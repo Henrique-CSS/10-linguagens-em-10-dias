@@ -12,5 +12,5 @@ function NewInt($name, $value) {
 function GetInt($name) {
     global $intName, $intValue;
     $position = array_search($name, $intName);
-    return $intValue[$position]
+    return $intValue[$position];
 }
