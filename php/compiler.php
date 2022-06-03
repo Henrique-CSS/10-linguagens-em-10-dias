@@ -1,4 +1,5 @@
 <?php
+include 'var.php';
 
 $fileName = $argv[1];
 $code = file_get_contents($fileName);
@@ -15,6 +16,17 @@ while ($count < strlen($code)) {
                                 echo $code[$count];
                             }
                         }
+                    }
+                }
+            }
+        }
+    }
+    if ($code[++$count] = "i") {
+        if ($code[++$count] = "n") {
+            if ($code[++$count] = "t") {
+                if ($code[++$count] = " ") {
+                    while (isset($code[++$count]) and $code[$count] != "=") {
+                        
                     }
                 }
             }
